@@ -1,0 +1,3 @@
+echo Building \'swfautomation-linux-`uname -m`\' ...
+g++ -x c++ -Wall main.cpp -o swfautomation-linux-`uname -m`
+echo Done!

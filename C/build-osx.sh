@@ -1,0 +1,3 @@
+echo Building \'swfautomation-osx-`uname -m`\' ...
+clang++ -x c++ -Wall main.cpp -o swfautomation-osx-`uname -m`
+echo Done!
